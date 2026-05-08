@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Power Menu Helper</string>
+    <string name="tile_label">Power Menu</string>
+    <string name="btn_open_settings">Open Accessibility Settings</string>
+    <string name="btn_power_menu">⏻  Open Power Menu</string>
+    <string name="footer_hint">Add the \"Power Menu\" tile to your Quick Settings for one-tap access.</string>
+    <string name="accessibility_service_description">Allows the app to open the system Power Menu when you tap the Quick Settings tile. This is useful when the physical power button is broken. No personal data is collected.</string>
+</resources>
