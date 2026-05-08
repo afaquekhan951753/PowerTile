@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Power Menu Helper</string>
+    <string name="app_name">PowerTile</string>
     <string name="tile_label">Power Menu</string>
     <string name="btn_open_settings">Open Accessibility Settings</string>
-    <string name="btn_power_menu">⏻  Open Power Menu</string>
-    <string name="footer_hint">Add the \"Power Menu\" tile to your Quick Settings for one-tap access.</string>
+    <string name="btn_power_menu">Open Power Menu</string>
+    <string name="footer_hint">Add the \"Power Menu\" tile to your Quick Settings panel for instant one-tap access.</string>
     <string name="accessibility_service_description">Allows the app to open the system Power Menu when you tap the Quick Settings tile. This is useful when the physical power button is broken. No personal data is collected.</string>
+    <string name="status_active">Service Active</string>
+    <string name="status_inactive">Setup Required</string>
+    <string name="instruction_active">You\'re all set! Tap the button below or use the Quick Settings tile to access the Power Menu.</string>
+    <string name="instruction_inactive">Enable the Accessibility Service to allow PowerTile to open the system Power Menu on your behalf.</string>
+    <string name="step_1">Tap the button below</string>
+    <string name="step_2">Find \"PowerTile\" in the list</string>
+    <string name="step_3">Toggle it ON and confirm</string>
+    <string name="how_to_add_tile">How to add the Quick Settings tile</string>
+    <string name="tile_step_1">Swipe down twice from the top</string>
+    <string name="tile_step_2">Tap the ✏️ edit icon</string>
+    <string name="tile_step_3">Drag \"Power Menu\" to active tiles</string>
 </resources>

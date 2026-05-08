@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Power icon foreground for adaptive launcher icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Power icon centered in the 108x108 safe zone (66x66 inner area offset by 21,21) -->
+    <group
+        android:translateX="30"
+        android:translateY="30">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M25,6h-2v20h2V6zM34.66,10.34l-1.42,1.42C36.18,13.62 38,16.62 38,20c0,5.52 -4.48,10 -10,10S18,25.52 18,20c0,-3.38 1.82,-6.38 4.76,-8.24l-1.42,-1.42C18.14,12.36 16,15.92 16,20c0,6.63 5.37,12 12,12s12,-5.37 12,-12c0,-4.08 -2.14,-7.64 -5.34,-9.66z"
+            android:strokeWidth="0" />
+    </group>
+</vector>

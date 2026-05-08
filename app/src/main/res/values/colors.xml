@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="red_primary">#FF5252</color>
-    <color name="green_active">#4CAF50</color>
-    <color name="dark_bg">#121212</color>
-    <color name="dark_surface">#1E1E1E</color>
+    <!-- Primary palette -->
+    <color name="red_primary">#FF3B30</color>
+    <color name="red_dark">#CC2D25</color>
+    <color name="red_light">#FF6961</color>
+    <color name="green_active">#30D158</color>
+    <color name="green_dark">#248A3D</color>
+
+    <!-- Background gradient -->
+    <color name="bg_dark_start">#0A0A0F</color>
+    <color name="bg_dark_end">#1A1A2E</color>
+
+    <!-- Card / surface -->
+    <color name="card_bg">#16161F</color>
+    <color name="card_border">#2A2A3D</color>
+    <color name="card_bg_elevated">#1E1E2E</color>
+
+    <!-- Text -->
+    <color name="text_primary">#F5F5F7</color>
+    <color name="text_secondary">#8E8E93</color>
+    <color name="text_tertiary">#636366</color>
+
+    <!-- Icon bg -->
+    <color name="icon_bg_red">#2A1215</color>
+    <color name="icon_bg_green">#122A18</color>
+
+    <!-- Accent -->
+    <color name="accent_blue">#0A84FF</color>
     <color name="white">#FFFFFF</color>
-    <color name="grey_text">#B0B0B0</color>
+    <color name="black">#000000</color>
 </resources>
