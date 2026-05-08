@@ -14,6 +14,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_horizontal"
+        android:clipChildren="false"
+        android:clipToPadding="false"
         android:paddingStart="24dp"
         android:paddingEnd="24dp"
         android:paddingTop="72dp"
@@ -24,9 +26,12 @@
         <!-- Icon with circular background -->
         <FrameLayout
             android:id="@+id/iconContainer"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:layout_gravity="center_horizontal">
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:padding="7dp">
 
             <View
                 android:id="@+id/iconBg"
@@ -194,7 +199,7 @@
         <!-- ===== ACTION BUTTONS ===== -->
 
         <!-- Setup button (visible when service inactive) -->
-        <Button
+        <android.widget.Button
             android:id="@+id/setupButton"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -209,16 +214,18 @@
             android:stateListAnimator="@null" />
 
         <!-- Power Menu button (visible when service active) -->
-        <Button
+        <android.widget.Button
             android:id="@+id/powerButton"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="⏻   Open Power Menu"
+            android:text="@string/btn_power_menu"
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="@color/white"
             android:textAllCaps="false"
             android:background="@drawable/bg_button_green"
+            android:drawableStart="@drawable/ic_power"
+            android:drawablePadding="8dp"
             android:visibility="gone"
             android:layout_marginTop="20dp"
             android:letterSpacing="0"

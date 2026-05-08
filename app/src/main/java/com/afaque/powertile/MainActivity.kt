@@ -71,6 +71,11 @@ class MainActivity : AppCompatActivity() {
             setupButton.visibility = View.GONE
             powerButton.visibility = View.VISIBLE
 
+            // Tint the drawableStart (power icon) to white on the green button
+            for (d in powerButton.compoundDrawablesRelative) {
+                d?.setTint(ContextCompat.getColor(this, R.color.white))
+            }
+
             iconBg.setBackgroundResource(R.drawable.bg_icon_circle_active)
             appIcon.setColorFilter(ContextCompat.getColor(this, R.color.green_active))
 
